@@ -336,7 +336,7 @@ button:focus {
   margin-block-start: 60px;
 }
 
-.footer_decorated-zone::before {
+/* .footer_decorated-zone::before {
   content: "";
   position: absolute;
   left: 20px;
@@ -360,7 +360,7 @@ button:focus {
   border-right: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
   inline-size: 25px;
   block-size: 25px;
-}
+} */
 
 .footer_title {
   color: var(--header-titile, rgba(219, 0, 255, 1));
@@ -371,23 +371,38 @@ button:focus {
 }
 
 /* планшет */
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   h1 {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header {
+  /* .header {
     margin-inline-start: 10px;
     margin-inline-end: 10px;
     margin-block-start: 10px;
     padding-top: 10px;
     min-block-size: auto;
+  } */
+
+  .header {
+    margin-inline-start: 0;
+    margin-inline-end: 20px;
+    margin-block-start: 0;
+    min-block-size: 1024px;
   }
 
+  .decorated-zone::before{
+    inset-inline-end: 10px;
+  }
+  .header__theme-menu {
+    margin-inline-end: 9px;
+    margin-block-start: 192px;
+  }
+  
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 13px;
   }
 
   h1 {
@@ -400,21 +415,16 @@ button:focus {
     max-inline-size: 364px;
   }
 
-  .header__theme-menu {
-    margin-inline-end: 9px;
-    margin-block-start: 63px;
-    padding-top: 108px;
+  .empty_tag::before {
+    inset-inline-end: 38px;
   }
-
-  .header {
-    margin-inline-start: 0;
-    margin-inline-end: 20px;
-    margin-block-start: 0;
-    min-block-size: 1024px;
+  
+  .empty_tag::after {
+    inset-inline-end: 19px;
   }
 
   .main {
-    margin-block-start: 9px;
+    margin-block-start: 20px;
   }
 
   .content-section {
@@ -468,25 +478,23 @@ button:focus {
   }
 
   .decorated-zone::after {
-    z-index: 2;
-    inset-inline-start: 10px;
-    inset-block-end: 10px;
+    inset-inline-start: 0px;
+    inset-block-end: 0px;
   }
 
   .decorated-zone::before {
-    top: auto;
-    inset-inline-end: 10px;
-    inset-block-start: 10px;
+    inset-inline-end: 0px;
+    inset-block-start: 0px;
   }
 
   .empty_tag::after {
-    inset-block-start: 15px;
-    inset-inline-end: 19px;
+    inset-block-start: 5px;
+    inset-inline-end: 9px;
   }
 
   .empty_tag::before {
-    inset-block-start: 10px;
-    inset-inline-end: 38px;
+    inset-block-start: 0px;
+    inset-inline-end: 28px;
   }
 
   .header_block_text {
@@ -503,6 +511,7 @@ button:focus {
     gap: 50px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
+    margin-block-start: 40px;
   }
 
   .content-section {
