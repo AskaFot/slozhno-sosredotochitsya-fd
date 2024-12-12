@@ -336,32 +336,6 @@ button:focus {
   margin-block-start: 70px;
 }
 
-/* .footer_decorated-zone::before {
-  content: "";
-  position: absolute;
-  left: 20px;
-  z-index: 2;
-  border: none;
-  border-bottom: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
-  border-left: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
-  inline-size: 25px;
-  block-size: 25px;
-  inset-block-start: 723px;
-}
-
-.footer_decorated-zone::after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  left: 979px;
-  z-index: 2;
-  border: none;
-  border-top: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
-  border-right: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
-  inline-size: 25px;
-  block-size: 25px;
-} */
-
 .footer_title {
   color: var(--header-titile, rgba(219, 0, 255, 1));
   font-family: var(--font-family, IBM Plex Mono, sans-serif);
@@ -381,10 +355,10 @@ button:focus {
     margin-inline-start: 0;
     margin-inline-end: 20px;
     margin-block-start: 20px;
-    min-block-size: 1024px;
+    height: max(100vh, 1024px);
   }
 
-  .decorated-zone::before{
+  .decorated-zone::before {
     inset-inline-end: 5px;
   }
 
@@ -443,6 +417,9 @@ button:focus {
     margin-block-start:40px;
   }
 
+  .footer{
+    height: max(100vh, 1024px);
+  }
 
   .footer_title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -546,7 +523,7 @@ button:focus {
   }
 
   .footer {
-    height: max(100vh, 667px);
+    height: max(100vh, 668px);
     margin-block-start: 40px;
   }
 
