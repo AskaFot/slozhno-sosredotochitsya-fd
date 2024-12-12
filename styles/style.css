@@ -51,7 +51,7 @@ button {
   inline-size: 25px;
   block-size: 25px;
   inset-inline-start: 20px;
-  inset-block-end: 20px;
+  inset-block-end: 30px;
 }
 
 .empty_tag::before {
@@ -286,7 +286,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-block-start: -10px;
+  margin-block-start: -5px;
 }
 
 .img_card {
@@ -337,7 +337,7 @@ button:focus {
   justify-items: center;
   align-items: center;
   height: max(100vh, 768px);
-  margin-block-start: 60px;
+  margin-block-start: 70px;
 }
 
 /* .footer_decorated-zone::before {
@@ -381,14 +381,6 @@ button:focus {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  /* .header {
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
-    margin-block-start: 10px;
-    padding-top: 10px;
-    min-block-size: auto;
-  } */
-
   .header {
     margin-inline-start: 0;
     margin-inline-end: 20px;
@@ -407,9 +399,7 @@ button:focus {
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-    /* gap: 10px; */
   }
-
 
   .header_title{
     padding-bottom: 40px;
@@ -419,7 +409,6 @@ button:focus {
 
   .header_block_text {
     margin-inline-end: 11px;
-    /* padding-top: 23px; */
     max-inline-size: 364px;
   }
 
@@ -432,20 +421,12 @@ button:focus {
   }
 
   .decorated-zone::after{
-    inset-block-end: 20px;
+    inset-block-end: 40px;
   }
-/* 
-  .main {
-    margin-block-start: 20px;
-  } */
 
   .content-section {
     gap: 20px;
   }
-/* 
-  .section{
-    margin-block-start: 0px;
-  } */
 
   .title_section_transfer{
     max-width: 236px;
@@ -461,12 +442,9 @@ button:focus {
   }
 
   .section_img{
-    margin-block-start:-5px;
+    margin-block-start:20px;
   }
-/* 
-  .footer{
-    margin-block-start: 0px;
-  } */
+
 
   .footer_title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -504,7 +482,7 @@ button:focus {
 
   .decorated-zone::after {
     inset-inline-start: 0px;
-    inset-block-end: 0px;
+    inset-block-end: 10px;
   }
 
   .decorated-zone::before {
@@ -525,13 +503,14 @@ button:focus {
   .header_block_text {
     margin-inline-end: 0px;
     padding-top: 10px;
+    margin-top: 40px;
   }
 
   .main {
     gap: 50px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 60px;
+    margin-block-start: 40px;
   }
 
   .content-section {
