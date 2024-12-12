@@ -1,2 +1,1 @@
-
-https://github.com/AskaFot/slozhno-sosredotochitsya.git
+https://github.com/AskaFot/slozhno-sosredotochitsya-fd.git
