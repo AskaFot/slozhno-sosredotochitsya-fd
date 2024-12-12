@@ -342,6 +342,8 @@ button:focus {
   font-weight: 700;
   font-size: 157px;
   line-height: 129.53px;
+  text-shadow: 2px 2px 0 var(--footer-title-shadow);
+
 }
 
 /* планшет */
@@ -378,10 +380,13 @@ button:focus {
     margin-inline-start: -10px;
   }
 
+
+
   .header_block_text {
-    margin-inline-end: 11px;
-    max-inline-size: 364px;
-    padding-block-start: 20px;
+        margin-inline-end: 4px;
+        max-inline-size: 366px;
+        padding-block-start: 22px;
+    }
   }
 
   .empty_tag::before {
@@ -395,11 +400,7 @@ button:focus {
   .decorated-zone::after {
     inset-block-end: 40px;
   }
-
-  .content-section {
-    gap: 20px;
-  }
-
+    
   .title_section_transfer {
     max-width: 236px;
   }
@@ -413,12 +414,19 @@ button:focus {
     gap: 20px;
   }
 
+  .content-section {
+    gap: 25px;
+    margin-inline-end: 5px;
+    }
+
   .section_img {
     margin-block-start:40px;
   }
 
   .footer{
     height: max(100vh, 1024px);
+    margin-inline-end: 20px;
+        margin-inline-start: 20px;
   }
 
   .footer_title {
@@ -525,6 +533,11 @@ button:focus {
   .footer {
     height: max(100vh, 668px);
     margin-block-start: 40px;
+
+
+    margin-inline-start: 10px;
+     margin-inline-end: 10px;
+  
   }
 
   .footer_title {
@@ -543,6 +556,7 @@ button:focus {
   --hover-zone: rgba(53, 52, 48, 1);
   --hover-zone-button: rgba(50, 49, 45, 0.4);
   --accent-color_title: rgba(53, 52, 48, 1);
+  --footer-title-shadow: rgba(255, 141, 203, 1);
 }
 /* Остальные стили */
 
@@ -565,4 +579,5 @@ button:focus {
   --hover-zone: rgba(255, 0, 112, 1);
   background-image: url(../images/cover-image-dark.png);
   --accent-color_title: rgba(255, 0, 112, 1);
+  --footer-title-shadow: transparent;
 }
