@@ -406,6 +406,7 @@ button:focus {
   .header_block_text {
     margin-inline-end: 11px;
     max-inline-size: 364px;
+    padding-block-start: 20px;
   }
 
   .empty_tag::before {
@@ -500,7 +501,7 @@ button:focus {
   .header_block_text {
     margin-inline-end: 0px;
     padding-top: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .main {
