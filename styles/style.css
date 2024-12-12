@@ -21,6 +21,7 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   height: max(100vh, 768px);
   position: relative;
+  margin-block-start: 20px;
 }
 
 .header__theme-menu {
@@ -80,7 +81,7 @@ button {
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color, rgba(255, 0, 112, 0.8));
+  border: 1px solid var(--hover-zone-button, rgba(255, 0, 112, 0.8));
 }
 .header__theme-menu-item {
   position: relative;
@@ -215,13 +216,13 @@ h4 {
 }
 
 .card_links {
-  color: var(--color_card_text, rgba(241, 178, 206, 1));
-  font-family: var(--font-family, IBM Plex Mono, sans-serif);
+  color: var(--color_card_text);
+  /* font-family: var(--font-family, IBM Plex Mono, sans-serif);
   font-weight: 400;
   font-size: var(--font-size, 18px);
-  line-height: 23.4px;
+  line-height: 23.4px; */
   text-decoration: none;
-  text-shadow: 3px 2px 0 var(--accent-color, rgba(255, 0, 112, 1));
+  text-shadow: 3px 2px 0 var(--accent-color);
 }
 
 .card_links:hover {
@@ -420,6 +421,10 @@ button:focus {
     gap: 20px;
   }
 
+  .title_section_transfer{
+    max-width: 236px;
+  }
+
   .section_concentration_card {
     display: flex;
     flex-direction: column;
@@ -427,6 +432,10 @@ button:focus {
 
   .section_solutions {
     gap: 20px;
+  }
+
+  .footer{
+    margin-block-start: 0px;
   }
 
   .footer_title {
@@ -546,4 +555,26 @@ button:focus {
   --color-invisible-element: transparent;
   --hover-zone: rgba(53, 52, 48, 1);
   --hover-zone-button: rgba(50, 49, 45, 0.4);
+}
+/* Остальные стили */
+
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  /* Переменные тёмной темы */
+  --color_card_text: rgba(241, 178, 206, 1);
+  --color_card_title: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --font-family: "IBM Plex Mono";
+  --header-titile: rgba(219, 0, 255, 1);
+  --color_nav: rgba(255, 0, 112, 1);
+  --font-size: 18px;
+  --color-decorated-zone: rgba(255, 0, 112, 1);
+  --color-titile-card: rgba(255, 0, 112, 1);
+  --color-invisible-element:  rgba(255, 0, 112, 1);
+  --hover-zone-button: rgba(255, 0, 112, 0.4);
+  background-image: url(../images/cover-image-dark.png);
+
 }
