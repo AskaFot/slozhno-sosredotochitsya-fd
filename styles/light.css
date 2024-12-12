@@ -15,14 +15,11 @@
   --header-titile: rgba(255, 194, 230, 1);
   --color_nav: rgba(53, 52, 48, 1);
   --font-size: 18px;
-  background-image: url(../images/cover-image-light.png);
-  --color-titile-card: rgba(53, 52, 48, 1);
   --color-decorated-zone: rgba(53, 52, 48, 1);
   --color-invisible-element: transparent;
   --hover-zone: rgba(53, 52, 48, 1);
   --hover-zone-button: rgba(50, 49, 45, 0.4);
-
-
+  --accent-color_title: rgba(53, 52, 48, 1);
 }
 
 :root.theme-light {
@@ -34,12 +31,11 @@
   --color_nav: rgba(53, 52, 48, 1);
   --font-size: 18px;
   --font-family: "IBM Plex Mono";
-  --color-titile-card: rgba(53, 52, 48, 1);
+  --accent-color_title: rgba(53, 52, 48, 1);
   --color-decorated-zone: rgba(53, 52, 48, 1);
   --color-invisible-element: transparent;
   --hover-zone: rgba(53, 52, 48, 1);
   --hover-zone-button: rgba(50, 49, 45, 0.4);
-
 }
 /* Остальные стили */
 
@@ -51,16 +47,15 @@
     --accent-color: rgba(255, 141, 203, 1);
     --header-titile: rgba(255, 194, 230, 1);
     --color_nav: rgba(53, 52, 48, 1);
+    --accent-color_title: rgba(53, 52, 48, 1);
     --font-size: 18px;
     --font-family: "IBM Plex Mono";
-    --color-titile-card: rgba(53, 52, 48, 1);
     --color-decorated-zone: rgba(53, 52, 48, 1);
     --color-invisible-element: transparent;
     --hover-zone: rgba(53, 52, 48, 1);
     --hover-zone-button: rgba(50, 49, 45, 0.4);
-
   }
-  .page{
+  .page {
     background-image: url(../images/cover-image-light.png);
   }
 }
