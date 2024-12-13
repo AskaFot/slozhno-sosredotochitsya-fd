@@ -412,9 +412,6 @@ button:focus {
     margin-inline-end: 5px;
     }
 
-  /* .section_img {
-    margin-block-start:40px;
-  } */
 
   .footer {
     height: max(100vh, 1024px);
@@ -551,6 +548,29 @@ button:focus {
   --accent-color_title: rgba(53, 52, 48, 1);
   --footer-title-shadow: rgba(255, 141, 203, 1);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --color_card_text: rgba(53, 52, 48, 1);
+    --color_card_title: rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --header-titile: rgba(255, 194, 230, 1);
+    --color_nav: rgba(53, 52, 48, 1);
+    --accent-color_title: rgba(53, 52, 48, 1);
+    --font-size: 18px;
+    --font-family: "IBM Plex Mono";
+    --color-decorated-zone: rgba(53, 52, 48, 1);
+    --color-invisible-element: transparent;
+    --hover-zone: rgba(53, 52, 48, 1);
+    --hover-zone-button: rgba(50, 49, 45, 0.4);
+    --footer-title-shadow: rgba(255, 141, 203, 1);
+  }
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+}
+
 /* Остальные стили */
 
 .page.theme_dark {
