@@ -200,7 +200,7 @@ h4 {
 .content-section {
   display: grid;
   grid-template-columns: 1fr 2.06fr;
-  gap: 12px;
+  gap: 10px;
   margin-block-start: 40px;
 }
 
@@ -324,6 +324,7 @@ button:focus {
   align-items: center;
   height: max(100vh, 768px);
   margin-block-start: 75px;
+  margin-block-end: 10px;
 }
 
 .footer_title {
