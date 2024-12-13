@@ -2,6 +2,7 @@
 
 .page {
   max-width: 1024px;
+  background-color: var(--bg-color);
   background-image: var(--bg-img, url(../images/cover-image-dark.png));
   background-repeat: no-repeat;
   background-position: center;
@@ -338,7 +339,7 @@ button:focus {
   font-weight: 700;
   font-size: 157px;
   line-height: 129.53px;
-  text-shadow: 2px 2px 0 var(--footer-title-shadow);
+  text-shadow: 4px 4px 0 var(--footer-title-shadow);
 }
 
 /* планшет */
@@ -550,6 +551,7 @@ button:focus {
   --accent-color_title: rgba(53, 52, 48, 1);
   --footer-title-shadow: rgba(255, 141, 203, 1);
   --bg-img: url(../images/cover-image-light.png);
+  --bg-color: rgba(255, 241, 247, 1);
 }
 
 @media (prefers-color-scheme: light) {
@@ -569,6 +571,7 @@ button:focus {
     --hover-zone-button: rgba(50, 49, 45, 0.4);
     --footer-title-shadow: rgba(255, 141, 203, 1);
     --bg-img: url(../images/cover-image-light.png);
+    --bg-color: rgba(255, 241, 247, 1);
   }
 }
 
@@ -587,6 +590,7 @@ button:focus {
   --accent-color_title: rgba(255, 0, 112, 1);
   --footer-title-shadow: transparent;
   --bg-img: url(../images/cover-image-dark.png);
+  --bg-color: rgba(0, 0, 40, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -605,5 +609,6 @@ button:focus {
     --hover-zone: rgba(255, 0, 112, 1);
     --footer-title-shadow: transparent;
     --bg-img: url(../images/cover-image-dark.png);
+    --bg-color: rgba(0, 0, 40, 1);
 }
 }
