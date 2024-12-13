@@ -200,7 +200,7 @@ h4 {
 .content-section {
   display: grid;
   grid-template-columns: 1fr 2.06fr;
-  gap: 10px;
+  gap: 20px;
   margin-block-start: 40px;
 }
 
@@ -272,7 +272,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-block-start: -4px;
+  /* margin-block-start: -4px; */
 }
 
 .img_card {
@@ -323,7 +323,7 @@ button:focus {
   justify-items: center;
   align-items: center;
   height: max(100vh, 768px);
-  margin-block-start: 75px;
+  margin-block-start: 79px;
   margin-block-end: 10px;
 }
 
@@ -334,7 +334,6 @@ button:focus {
   font-size: 157px;
   line-height: 129.53px;
   text-shadow: 2px 2px 0 var(--footer-title-shadow);
-
 }
 
 /* планшет */
