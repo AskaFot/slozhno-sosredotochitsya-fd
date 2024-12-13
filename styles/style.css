@@ -147,7 +147,7 @@ h4 {
 .header_block_text {
   display: flex;
   flex-direction: column;
-  justify-self: end; 
+  justify-self: end;
   align-self: start;
   height: fit-content;
   margin-inline-end: 20px;
@@ -323,7 +323,7 @@ button:focus {
   justify-items: center;
   align-items: center;
   height: max(100vh, 768px);
-  margin-block-start: 70px;
+  margin-block-start: 75px;
 }
 
 .footer_title {
@@ -478,7 +478,7 @@ button:focus {
     gap: 50px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 40px;
+    margin-block-start: 30px;
   }
 
   .content-section {
