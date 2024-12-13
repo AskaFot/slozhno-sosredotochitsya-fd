@@ -17,6 +17,7 @@
   --hover-zone: rgba(255, 0, 112, 1);
   --accent-color_title: rgba(255, 0, 112, 1);
   --footer-title-shadow: transparent;
+  --bg-img: url(../images/cover-image-dark.png);
 }
 
 /* Остальные стили */
@@ -40,5 +41,5 @@
   --hover-zone-button: rgba(255, 0, 112, 0.4);
   --hover-zone: rgba(255, 0, 112, 1);
   --footer-title-shadow: transparent;
-
+  --bg-img: url(../images/cover-image-dark.png);
 }
