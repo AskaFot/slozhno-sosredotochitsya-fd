@@ -16,6 +16,7 @@
   --hover-zone-button: rgba(255, 0, 112, 0.4);
   --hover-zone: rgba(255, 0, 112, 1);
   --accent-color_title: rgba(255, 0, 112, 1);
+  --footer-title-shadow: transparent;
 }
 
 /* Остальные стили */
@@ -38,25 +39,6 @@
   --color-invisible-element: rgba(255, 0, 112, 1);
   --hover-zone-button: rgba(255, 0, 112, 0.4);
   --hover-zone: rgba(255, 0, 112, 1);
-}
+  --footer-title-shadow: transparent;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Дублируем переменные светлой темы */
-    --color_card_text: rgba(241, 178, 206, 1);
-    --color_card_title: rgba(0, 0, 40, 1);
-    --accent-color: rgba(255, 0, 112, 1);
-    --font-family: "IBM Plex Mono";
-    --header-titile: rgba(219, 0, 255, 1);
-    --color_nav: rgba(255, 0, 112, 1);
-    --font-size: 18px;
-    --color-decorated-zone: rgba(255, 0, 112, 1);
-    --color-invisible-element: rgba(255, 0, 112, 1);
-    --hover-zone-button: rgba(255, 0, 112, 0.4);
-    --hover-zone: rgba(255, 0, 112, 1);
-    --accent-color_title: rgba(255, 0, 112, 1);
-  }
-  .page {
-    background-image: url(../images/cover-image-dark.png);
-  }
 }
