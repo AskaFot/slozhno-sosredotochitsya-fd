@@ -20,11 +20,8 @@
   --hover-zone: rgba(53, 52, 48, 1);
   --hover-zone-button: rgba(50, 49, 45, 0.4);
   --accent-color_title: rgba(53, 52, 48, 1);
-  background-image: url(../images/cover-image-light.png);
   --footer-title-shadow: rgba(255, 141, 203, 1);
   --bg-img: url(../images/cover-image-light.png);
-
-
 }
 
 :root.theme-light {
