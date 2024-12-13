@@ -416,7 +416,7 @@ button:focus {
     margin-block-start:40px;
   } */
 
-  .footer{
+  .footer {
     height: max(100vh, 1024px);
     margin-inline-end: 20px;
         margin-inline-start: 20px;
