@@ -324,7 +324,6 @@ button:focus {
   align-items: center;
   height: max(100vh, 768px);
   margin-block-start: 75px;
-  margin-block-end: 20px;
 }
 
 .footer_title {
