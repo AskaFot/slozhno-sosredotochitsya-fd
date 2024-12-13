@@ -5,7 +5,6 @@
   background-image: var(--bg-img, url(../images/cover-image-dark.png));
   background-repeat: no-repeat;
   background-position: center;
-  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -588,4 +587,23 @@ button:focus {
   --accent-color_title: rgba(255, 0, 112, 1);
   --footer-title-shadow: transparent;
   --bg-img: url(../images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --color_card_text: rgba(241, 178, 206, 1);
+    --color_card_title: rgba(0, 0, 40, 1);
+    --accent-color_title: rgba(255, 0, 112, 1);
+    --accent-color: rgba(255, 0, 112, 1);
+    --font-family: "IBM Plex Mono";
+    --header-titile: rgba(219, 0, 255, 1);
+    --color_nav: rgba(255, 0, 112, 1);
+    --font-size: 18px;
+    --color-decorated-zone: rgba(255, 0, 112, 1);
+    --color-invisible-element: rgba(255, 0, 112, 1);
+    --hover-zone-button: rgba(255, 0, 112, 0.4);
+    --hover-zone: rgba(255, 0, 112, 1);
+    --footer-title-shadow: transparent;
+    --bg-img: url(../images/cover-image-dark.png);
+}
 }
