@@ -5,7 +5,6 @@
   z-index: -1;
   max-width: 1024px;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-color: var(--background-color, rgba(0, 0, 40, 1));
   background-image:var(--bg-img);
   background-repeat: no-repeat;
   background-position: center;
