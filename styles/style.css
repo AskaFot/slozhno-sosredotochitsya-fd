@@ -145,7 +145,7 @@ h4 {
 }
 
 .header_title {
-  padding-block-start: 60px;
+  padding-block-start: 57px;
 }
 
 .header_block_text {
@@ -330,10 +330,11 @@ button:focus {
   align-items: center;
   height: max(100vh, 768px);
   margin-block-start: 59px;
+  margin-block-end: -20px;
 }
 
 .footer_title {
-  padding-block-end: 40px;
+  padding-block-end: 37px;
   color: var(--header-titile, rgba(219, 0, 255, 1));
   font-family: var(--font-family, IBM Plex Mono, sans-serif);
   font-weight: 700;
@@ -419,14 +420,14 @@ button:focus {
     margin-inline-end: 5px;
   } */
 
-  .section_solutions_advice{ 
+  .section_solutions_advice {
 padding-inline-start: 5px;;
   }
-  .content-section{
+  .content-section {
     gap: 28px;
   }
 
-  .section{
+  .section {
     gap: 20px;
   }
 
