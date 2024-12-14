@@ -146,7 +146,7 @@ h4 {
 }
 
 .header_title {
-  padding-block-start: 57px;
+  padding-block-start: 53px;
 }
 
 .header_block_text {
@@ -330,7 +330,7 @@ button:focus {
 }
 
 .footer_title {
-  padding-block-end: 37px;
+  padding-block-end: 32px;
   color: var(--header-titile, rgba(219, 0, 255, 1));
   font-family: var(--font-family, IBM Plex Mono, sans-serif);
   font-weight: 700;
