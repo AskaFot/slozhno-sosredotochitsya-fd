@@ -268,8 +268,8 @@ button:focus {
 
 .section_solutions_advice {
   display: grid;
-  grid-template-rows: repeat(6, min-content);
-  gap: 20px;
+  grid-template-rows: auto;
+  row-gap: 20px;
 }
 
 .section_img {
@@ -357,17 +357,17 @@ button:focus {
   }
 
   .decorated-zone::before {
-    inset-inline-end: 5px;
-    inset-block-start: 10px;
+    inset-inline-end: 0px;
+    inset-block-start: 0px;
   }
 
-  .decorated-zone::after{
-    inset-block-end: 10px;
+  .decorated-zone::after {
+    inset-block-end: 40px;
     }
 
   .header__theme-menu {
     /* margin-inline-end: 4px; */
-    margin-block-start: 163px;
+    margin-block-start: 154px;
   }
 
   .header__theme-menu-list {
@@ -382,23 +382,23 @@ button:focus {
   }
 
   .header_block_text {
-    margin-inline-end: 0px;
-    padding-block-start: 10px;
+    margin-inline-end: -3px;
+    padding-block-start: 15px;
     max-inline-size: 367px;
   }
 
   .empty_tag::before {
     inset-inline-end: 28px;
-    inset-block-start: 10px;
+    inset-block-start: 2px;
   }
 
   .empty_tag::after {
-    inset-inline-end: 13px;
-    inset-block-start: 18px;
+    inset-inline-end: 10px;
+    inset-block-start: 10px;
   }
 
   .main {
-    padding-block-start: 10px;
+    padding-block-start: 0px;
   }
 
   .title_section_transfer {
@@ -419,14 +419,26 @@ button:focus {
     margin-inline-end: 5px;
   } */
 
+  .section_solutions_advice{ 
+padding-inline-start: 5px;;
+  }
+  .content-section{
+    gap: 28px;
+  }
+
+  .section{
+    gap: 20px;
+  }
 
   .footer {
     height: max(100vh, 1024px);
     margin-inline-start: 0px;
     margin-inline-end: 20px;
+    margin-block-start: 79px;
   }
 
   .footer_title {
+    padding-inline-start: 20px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
