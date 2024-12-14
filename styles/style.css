@@ -330,7 +330,7 @@ button:focus {
 }
 
 .footer_title {
-  padding-block-end: 32px;
+  padding-block-end: 27px;
   color: var(--header-titile, rgba(219, 0, 255, 1));
   font-family: var(--font-family, IBM Plex Mono, sans-serif);
   font-weight: 700;
@@ -428,6 +428,7 @@ button:focus {
 
   .footer_title {
     padding-inline-start: 20px;
+    padding-block-end: 33px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
