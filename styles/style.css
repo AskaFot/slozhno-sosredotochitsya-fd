@@ -337,6 +337,7 @@ button:focus {
   font-size: clamp(9.8125rem, 30.4279rem + -32.2115vw, 1.4375rem);
   line-height: 129.53px;
   text-shadow: 4px 4px 0 var(--footer-title-shadow);
+  padding-block-start: 5px;
 }
 
 /* планшет */
@@ -427,7 +428,6 @@ button:focus {
 
   .footer_title {
     padding-inline-start: 20px;
-    padding-block-start: 5px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
