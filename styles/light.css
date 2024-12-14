@@ -25,29 +25,10 @@
   --bg-color: rgba(255, 241, 247, 1);
 }
 
-:root.theme-light {
-  /* Переменные светлой темы */
-  --color_card_text: rgba(53, 52, 48, 1);
-  --color_card_title: rgba(53, 52, 48, 1);
-  --accent-color: rgba(255, 141, 203, 1);
-  --header-titile: rgba(255, 194, 230, 1);
-  --color_nav: rgba(53, 52, 48, 1);
-  --font-size: 18px;
-  --font-family: "IBM Plex Mono";
-  --accent-color_title: rgba(53, 52, 48, 1);
-  --color-decorated-zone: rgba(53, 52, 48, 1);
-  --color-invisible-element: transparent;
-  --hover-zone: rgba(53, 52, 48, 1);
-  --hover-zone-button: rgba(50, 49, 45, 0.4);
-  --footer-title-shadow: rgba(255, 141, 203, 1);
-  --bg-img: url(../images/cover-image-light.png);
-  --bg-color: rgba(255, 241, 247, 1);
-
-}
 /* Остальные стили */
 
 @media (prefers-color-scheme: light) {
-  .page {
+  :root{
     /* Дублируем переменные светлой темы */
     --color_card_text: rgba(53, 52, 48, 1);
     --color_card_title: rgba(53, 52, 48, 1);
