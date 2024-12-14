@@ -79,7 +79,7 @@ button {
 }
 
 .header__theme-menu-button_active {
-  pointer-events: none; 
+  pointer-events: none;
   border: 1px solid var(--hover-zone, rgba(255, 0, 112, 1));
 }
 
@@ -210,9 +210,7 @@ h4 {
 }
 
 .section {
-  /* margin-block-start: 0px; */
-  display: flex;
-    flex-direction: column;
+ margin-block-start: 0px;
 }
 
 .card_links {
@@ -248,14 +246,8 @@ button:focus {
   gap: 10px;
 }
 
-/* .section_concentration {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-} */
-
-.section_concentration{
-  margin-block-start: 20px;
+.section_concentration {
+  grid-template-columns: none;
 }
 
 .title_section_transfer {
@@ -366,7 +358,12 @@ button:focus {
 
   .decorated-zone::before {
     inset-inline-end: 5px;
+    inset-block-start: 10px;
   }
+
+  .decorated-zone::after{
+    inset-block-end: 10px;
+    }
 
   .header__theme-menu {
     /* margin-inline-end: 4px; */
@@ -392,14 +389,16 @@ button:focus {
 
   .empty_tag::before {
     inset-inline-end: 28px;
+    inset-block-start: 10px;
   }
 
   .empty_tag::after {
     inset-inline-end: 13px;
+    inset-block-start: 18px;
   }
 
-  .main{
-    padding-block-start: 30px;
+  .main {
+    padding-block-start: 10px;
   }
 
   .title_section_transfer {
@@ -534,7 +533,7 @@ button:focus {
     height: max(100vh, 668px);
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 52px;
+    margin-block-start: 49px;
   }
 
   .footer_title {

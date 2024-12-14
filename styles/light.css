@@ -28,7 +28,7 @@
 /* Остальные стили */
 
 @media (prefers-color-scheme: light) {
-  :root{
+  :root {
     /* Дублируем переменные светлой темы */
     --color_card_text: rgba(53, 52, 48, 1);
     --color_card_title: rgba(53, 52, 48, 1);
