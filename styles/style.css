@@ -146,7 +146,7 @@ h4 {
 }
 
 .header_title {
-  padding-block-start: 50px;
+  padding-block-start: 47px;
 }
 
 .header_block_text {
@@ -479,7 +479,7 @@ button:focus {
 
   .header_block_text {
     margin-inline-end: 0px;
-    margin-block-start: 10px;
+    margin-block-start: 20px;
   }
 
   .main {
