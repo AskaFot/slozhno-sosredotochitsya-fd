@@ -330,7 +330,7 @@ button:focus {
 }
 
 .footer_title {
-  padding-block-end: 22px;
+  padding-block-end: 6px;
   color: var(--header-titile, rgba(219, 0, 255, 1));
   font-family: var(--font-family, IBM Plex Mono, sans-serif);
   font-weight: 700;
@@ -423,7 +423,7 @@ button:focus {
     height: max(100vh, 1024px);
     margin-inline-start: 0px;
     margin-inline-end: 20px;
-    margin-block-start: 79px;
+    /* margin-block-start: 79px; */
   }
 
   .footer_title {
@@ -534,7 +534,7 @@ button:focus {
     height: max(100vh, 668px);
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 49px;
+    margin-block-start: 39px;
   }
 
   .footer_title {
