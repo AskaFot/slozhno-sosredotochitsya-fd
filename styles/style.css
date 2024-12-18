@@ -359,7 +359,7 @@ button:focus {
   }
 
   .decorated-zone::after {
-    inset-block-end: 40px;
+    inset-block-end: 20px;
   }
 
   .header__theme-menu {
@@ -436,18 +436,19 @@ button:focus {
 /* телефон  */
 @media (width <=600px) {
   .header {
-    grid-template-rows: 1fr min-content 1fr;
-    height: max(100vh, 668px);
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
-    margin-block-start: 10px;
-    padding-top: 10px;
-    min-block-size: auto;
+        grid-template-rows: 1fr min-content 1fr;
+        height: max(100vh, 668px);
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        /* margin-block-start: 10px; */
+        padding-top: 10px;
+        /* padding-bottom: 10px; */
+        min-block-size: auto;
   }
 
   .header__theme-menu {
     margin-inline-end: 0px;
-    margin-block-start: 53px;
+    margin-block-start: 65px;
   }
 
   .header__theme-menu-list {
@@ -457,7 +458,7 @@ button:focus {
   }
 
   .header_title {
-    margin-block-start: -80px;
+    margin-block-start: -70px;
     line-height: 95.7px;
   }
 
@@ -467,34 +468,36 @@ button:focus {
 
   .decorated-zone::after {
     inset-inline-start: 0px;
-    inset-block-end: 20px;
+        inset-block-end: 10px;
+
+    /* inset-block-end: 20px; */
   }
 
   .decorated-zone::before {
     inset-inline-end: 0px;
-    inset-block-start: 0px;
+    inset-block-start: 10px;
   }
 
   .empty_tag::after {
-    inset-block-start: 5px;
+    inset-block-start: 15px;
     inset-inline-end: 9px;
   }
 
   .empty_tag::before {
-    inset-block-start: 0px;
+    inset-block-start: 10px;
     inset-inline-end: 28px;
   }
 
   .header_block_text {
     margin-inline-end: 0px;
-    margin-block-start: 5px;
+    margin-block-start: 16px;
   }
 
   .main {
     gap: 50px;
     padding-inline-start: 10px;
     padding-inline-end: 10px;
-    padding-block-start: 30px;
+    padding-block-start: 40px;
   }
 
   .content-section {
@@ -538,7 +541,7 @@ button:focus {
   }
 
   .footer_title {
-    padding-block-end: 44px;
+    /* padding-block-end: 44px; */
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
