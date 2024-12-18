@@ -350,12 +350,12 @@ button:focus {
     height: max(100vh, 1024px);
     margin-inline-start: 0;
     margin-inline-end: 20px;
-    margin-block-start: 20px;
+    /* margin-block-start: 20px; */
   }
 
   .decorated-zone::before {
     inset-inline-end: 0px;
-    inset-block-start: 0px;
+    inset-block-start: 20px;
   }
 
   .decorated-zone::after {
@@ -363,7 +363,7 @@ button:focus {
   }
 
   .header__theme-menu {
-    margin-block-start: 154px;
+    margin-block-start: 174px;
   }
 
   .header__theme-menu-list {
@@ -372,28 +372,28 @@ button:focus {
   }
 
   .header_title {
-    padding-block-start: 70px;
+    padding-block-start: 90px;
   }
 
   .header_block_text {
     margin-inline-end: -3px;
-    padding-block-start: 15px;
+    padding-block-start: 35px;
     max-inline-size: 367px;
   }
 
   .empty_tag::before {
     inset-inline-end: 28px;
-    inset-block-start: 2px;
+    inset-block-start: 22px;
   }
 
   .empty_tag::after {
     inset-inline-end: 10px;
-    inset-block-start: 10px;
+    inset-block-start: 30px;
   }
-
+/* 
   .main {
     padding-block-start: 0px;
-  }
+  } */
 
   .title_section_transfer {
     max-width: 236px;
@@ -428,7 +428,7 @@ button:focus {
 
   .footer_title {
     padding-inline-start: 20px;
-    padding-block-end: 33px;
+    /* padding-block-end: 33px; */
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
