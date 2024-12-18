@@ -389,7 +389,9 @@ button:focus {
     inset-inline-end: 10px;
     inset-block-start: 30px;
   }
-
+.main{
+  padding-block-start: 22px;
+}
   .title_section_transfer {
     max-width: 236px;
   }
@@ -449,7 +451,7 @@ button:focus {
   }
 
   .header_title {
-    margin-block-start: -70px;
+    padding-block-end: 55px;
     line-height: 95.7px;
   }
 
@@ -479,7 +481,7 @@ button:focus {
 
   .header_block_text {
     margin-inline-end: 0px;
-    margin-block-start: 18px;
+    padding-block-start:0px;
   }
 
   .main {
