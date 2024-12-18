@@ -393,7 +393,7 @@ button:focus {
   /* было 18 */
 
 .main {
-  padding-block-start: 16px;
+  padding-block-start: 21px;
 }
   .title_section_transfer {
     max-width: 236px;
@@ -454,7 +454,7 @@ button:focus {
   }
 
   .header_title {
-    padding-block-end: 55px;
+    padding-block-end: 50px;
     line-height: 95.7px;
   }
 
