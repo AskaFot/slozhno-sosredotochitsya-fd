@@ -390,7 +390,7 @@ button:focus {
   /* было 20 */
 
 .main {
-  padding-block-start: 19px;
+  padding-block-start: 21px;
 } 
   .title_section_transfer {
     max-width: 236px;
@@ -416,7 +416,7 @@ button:focus {
     gap: 20px;
   }
 
-  .section_img{
+  .section_img {
     gap: 21px;
   }
 
