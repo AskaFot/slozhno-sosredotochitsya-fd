@@ -107,7 +107,7 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 13px;
 }
 
 button,
@@ -145,7 +145,7 @@ h4 {
 
 /* было 45 */
 .header_title {
-  padding-block-start: 54px;
+  padding-block-start: 50px;
   /* padding-inline-start: 10px; */
 }
 
@@ -390,7 +390,7 @@ button:focus {
   /* было 20 */
 
 .main {
-  padding-block-start: 21px;
+  padding-block-start: 19px;
 } 
   .title_section_transfer {
     max-width: 236px;
