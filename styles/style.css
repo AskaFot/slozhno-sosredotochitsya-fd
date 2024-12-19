@@ -143,9 +143,10 @@ h4 {
   font-size: var(--font-size, 18px);
 }
 
+/* было 45 */
 .header_title {
-  padding-block-start: 45px;
-  padding-inline-start: 10px;
+  padding-block-start: 52px;
+  /* padding-inline-start: 10px; */
 }
 
 .header_block_text {
@@ -389,7 +390,7 @@ button:focus {
   /* было 20 */
 
 .main {
-  padding-block-start: 19px;
+  padding-block-start: 17px;
 } 
   .title_section_transfer {
     max-width: 236px;
