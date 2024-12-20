@@ -166,7 +166,7 @@ h4 {
   gap: 80px;
   padding-inline-start: 20px;
   padding-inline-end: 20px;
-  padding-block-start: 20px;
+  padding-block-start: 19px;
 }
 
 .title-decor {
@@ -387,10 +387,10 @@ button:focus {
     inset-block-start: 30px;
   }
 
-  /* было 20 */
+  /* было 18*/
 
 .main {
-  padding-block-start: 18px;
+  padding-block-start: 17px;
 } 
   .title_section_transfer {
     max-width: 236px;
@@ -501,7 +501,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-block-start: 2px;
+    margin-block-start: 0px;
   }
 
   .section_concentration_card {
@@ -525,7 +525,7 @@ button:focus {
 
   .section_img {
     gap: 10px;
-    margin-block-start: -2px;
+    /* margin-block-start: -2px; */
   }
 
   .img_card {
