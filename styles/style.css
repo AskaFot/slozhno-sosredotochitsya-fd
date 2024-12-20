@@ -357,7 +357,7 @@ button:focus {
   }
 
   .header__theme-menu {
-    margin-block-start: 174px;
+    margin-block-start: 170px;
   }
 
   .header__theme-menu-list {
@@ -390,7 +390,7 @@ button:focus {
   /* было 20 */
 
 .main {
-  padding-block-start: 19px;
+  padding-block-start: 18px;
 } 
   .title_section_transfer {
     max-width: 236px;
@@ -501,7 +501,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-block-start: 0px;
+    margin-block-start: 2px;
   }
 
   .section_concentration_card {
@@ -519,9 +519,13 @@ button:focus {
     max-width: 350px;
   }
 
+  .section_concentration {
+    margin-block-start: -2px;
+  }
+
   .section_img {
     gap: 10px;
-    margin-block-start: 0px;
+    margin-block-start: -2px;
   }
 
   .img_card {
@@ -534,7 +538,7 @@ button:focus {
     height: max(100vh, 668px);
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 37px;
+    margin-block-start: 42px;
   }
 
   .footer_title {
