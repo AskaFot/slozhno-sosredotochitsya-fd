@@ -114,7 +114,7 @@ button,
 a {
   border: none;
   color: var(--color_nav, rgba(255, 0, 112, 1));
-  font-family: var(--font-family, IBM Plex Mono, sans-serif);
+  font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
   font-size: var(--font-size, 18px);
   line-height: inherit;
   text-transform: lowercase;
@@ -390,7 +390,8 @@ button:focus {
   /* было 18*/
 
 .main {
-  padding-block-start: 19px;
+  padding-block-start: 20px;
+  gap: 79px;
 } 
   .title_section_transfer {
     max-width: 236px;
@@ -424,6 +425,7 @@ button:focus {
     height: max(100vh, 1024px);
     margin-inline-start: 0px;
     margin-inline-end: 20px;
+    margin-block-start: 60px;
   }
 
   .footer_title {
@@ -491,7 +493,7 @@ button:focus {
   }
 
   .main {
-    gap: 50px;
+    gap: 49px;
     padding-inline-start: 10px;
     padding-inline-end: 10px;
     padding-block-start: 40px;
@@ -538,7 +540,7 @@ button:focus {
     height: max(100vh, 668px);
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    margin-block-start: 42px;
+    margin-block-start: 41px;
   }
 
   .footer_title {
