@@ -166,7 +166,7 @@ h4 {
   gap: 80px;
   padding-inline-start: 20px;
   padding-inline-end: 20px;
-  padding-block-start: 19px;
+  padding-block-start: 20px;
 }
 
 .title-decor {
@@ -390,7 +390,7 @@ button:focus {
   /* было 18*/
 
 .main {
-  padding-block-start: 17px;
+  padding-block-start: 19px;
 } 
   .title_section_transfer {
     max-width: 236px;
@@ -518,10 +518,10 @@ button:focus {
   .title_section_transfer {
     max-width: 350px;
   }
-
+/* 
   .section_concentration {
     margin-block-start: -2px;
-  }
+  } */
 
   .section_img {
     gap: 10px;
